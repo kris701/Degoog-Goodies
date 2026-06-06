@@ -14,20 +14,7 @@ export const slot = {
     },
   ],
 
-  async init(ctx) {
-  },
-
   configure(settings) {
     pluginEnabled = settings?.enabled !== "false";
-  },
-
-  trigger(query) {
-    console.log("trig");
-  },
-
-  async execute(query, context) {
-    console.log("exec");
-  },
+  }
 };
-
-export default { slot };
