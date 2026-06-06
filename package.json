@@ -10,7 +10,7 @@
       "description": "Adds an option to show more results from a single site.",
       "version": "1.0.0",
       "type": "slot"
-    },
+    }
   ],
   "themes": [
   ],
