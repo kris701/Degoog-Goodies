@@ -1,0 +1,23 @@
+{
+  "name": "degoog-goodies",
+  "description": "Just some simple plugins i made :)",
+  "repo-image": "https://avatars.githubusercontent.com/u/22596587?v=4&size=64",
+  "author": "kris701",
+  "plugins": [
+    {
+      "path": "plugins/more-from-site",
+      "name": "More From Site",
+      "description": "Adds an option to show more results from a single site.",
+      "version": "1.0.0",
+      "type": "slot"
+    },
+  ],
+  "themes": [
+  ],
+  "transports": [
+  ],
+  "engines": [
+  ],
+  "autocomplete": [
+  ]
+}
