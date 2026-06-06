@@ -1,20 +1,15 @@
-let pluginEnabled = true;
+const INFO_HTML =
+  `<div class="command-result"><p>Test.</p></div>`;
 
-export const slot = {
-  isClientExposed: true,
-  id: "more-from-site",
+export default {
+  isClientExposed: false,
   name: "More From Site",
   description: "Adds an option to show more results from a single site.",
+  trigger: "highlight",
+  aliases: ["hl"],
+  settingsSchema: [],
 
-  settingsSchema: [
-    {
-      key: "enabled",
-      label: "Enabled",
-      type: "toggle",
-    },
-  ],
-
-  configure(settings) {
-    pluginEnabled = settings?.enabled !== "false";
-  }
+  execute() {
+    return { title: "More From Site", html: INFO_HTML };
+  },
 };
