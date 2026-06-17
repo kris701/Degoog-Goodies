@@ -1,4 +1,8 @@
 .more-from-site {
+	cursor: pointer;
+}
+
+.more-from-site-single {
 	opacity:0.5;
 	font-size:10px;
 	cursor: pointer;
