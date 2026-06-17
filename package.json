@@ -8,7 +8,7 @@
       "path": "plugins/more-from-site",
       "name": "More From Site",
       "description": "Adds an option to show more results from a single site.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "slot"
     }
   ],
